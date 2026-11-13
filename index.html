@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semana da Educação para a Vida | BNCC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f1e8;--card:#fffdf8;--sand:#eadcc9;--brown:#72543f;--dark:#493629;--text:#514438;--muted:#8b7968;--green:#a9b69a;--pale:#e8eee2;--shadow:0 8px 24px rgba(91,68,48,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 Montserrat,Arial,sans-serif}
+header{text-align:center;padding:44px 20px 36px;background:linear-gradient(135deg,#eadcc9,#f3e9dc)}
+.tag{display:inline-block;padding:7px 14px;border-radius:25px;background:#fffdf8b8;color:var(--brown);font-size:.75rem;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+h1,h2,h3{color:var(--dark)}h1{font:700 clamp(2rem,5vw,3.2rem)/1.15 'Playfair Display',Georgia,serif;margin:16px auto 10px}header p{max-width:720px;margin:auto;color:#695746}
+nav{position:sticky;top:0;z-index:5;display:flex;justify-content:center;flex-wrap:wrap;gap:7px;padding:12px;background:#fffdf8ed;border-bottom:1px solid #e9dfd2}
+nav a{color:var(--brown);text-decoration:none;font-size:.82rem;font-weight:700;padding:7px 12px;border-radius:22px}nav a:hover{background:var(--pale)}
+main{width:min(1100px,92%);margin:32px auto 55px}section{scroll-margin-top:85px;margin:30px 0}.eyebrow{font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase;color:#9a8068;font-weight:700}
+h2{font:700 clamp(1.6rem,3vw,2.15rem)/1.2 'Playfair Display',Georgia,serif;margin:5px 0 9px}h3{font-size:1.03rem;margin:8px 0}p{margin:8px 0}
+.intro,.card,.topic,.activity,.reflection,.panel{background:var(--card);border:1px solid #72543f18;border-radius:17px;box-shadow:var(--shadow)}
+.intro{padding:25px;display:grid;grid-template-columns:1.5fr 1fr;gap:22px;align-items:center}
+.art{min-height:185px;border-radius:14px;background:var(--pale);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--brown);padding:18px}.art span{font-size:3.5rem}.art strong{font:700 1.3rem 'Playfair Display',serif}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card,.topic{padding:19px;transition:.2s}.card:hover,.topic:hover,.activity:hover{transform:translateY(-3px);box-shadow:0 12px 27px #5b44301f}.icon{width:43px;height:43px;display:grid;place-items:center;border-radius:13px;background:var(--pale);font-size:1.35rem}.card p,.topic p{color:#766757;font-size:.9rem}
+.topics{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.topic{display:flex;gap:14px;align-items:flex-start}.topic .icon{flex:0 0 43px}
+.activity-list{display:grid;gap:11px}.activity{padding:16px 19px;display:flex;gap:13px;align-items:flex-start;transition:.2s}.activity input{width:19px;height:19px;margin-top:5px;accent-color:#849574}.activity label{cursor:pointer;flex:1}.activity strong{display:block;color:var(--dark)}.activity small{color:var(--muted)}.activity.done{background:#f0f3eb}.activity.done strong{text-decoration:line-through;color:#829078}
+.panel{padding:19px;margin-bottom:14px}.bar{height:10px;background:#e9dfd3;border-radius:20px;overflow:hidden;margin:10px 0 5px}.progress{height:100%;width:0;background:#9eae8e;transition:width .25s}.small{font-size:.8rem;color:var(--muted)}
+.reflection{padding:22px}textarea{width:100%;min-height:125px;resize:vertical;margin-top:10px;border:1px solid #dfd2c3;border-radius:12px;padding:13px;background:#fffefa;color:var(--text);font: .92rem Montserrat,sans-serif;outline:none}textarea:focus{border-color:var(--green)}
+button{border:0;border-radius:25px;background:var(--brown);color:white;padding:10px 18px;font:700 .84rem Montserrat,sans-serif;cursor:pointer;margin-top:10px}button:hover{background:var(--dark)}button.secondary{background:var(--green);color:#263323}
+.quote{margin:28px 0;padding:27px;text-align:center;border-radius:17px;background:#eee4d8;color:var(--dark);font:italic 1.25rem/1.6 'Playfair Display',Georgia,serif}.quote span{display:block;margin-top:8px;font:700 .72rem Montserrat,sans-serif;letter-spacing:1px;text-transform:uppercase;color:#927b65}
+footer{text-align:center;padding:24px 15px;background:var(--sand);color:#76614e;font-size:.82rem}
+@media(max-width:760px){.intro{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.topics{grid-template-columns:1fr}}
+@media(max-width:500px){.grid{grid-template-columns:1fr}nav{gap:2px}nav a{font-size:.73rem;padding:7px 8px}.intro,.reflection{padding:18px}}
+</style>
+</head>
+<body>
+<header id="inicio">
+<span class="tag">Projeto escolar • BNCC</span>
+<h1>Semana da Educação para a Vida</h1>
+<p>Aprender também é desenvolver valores, atitudes e habilidades para fazer escolhas, conviver e construir um futuro melhor.</p>
+</header>
+
+<nav>
+<a href="#sobre">Sobre</a>
+<a href="#importancia">Importância</a>
+<a href="#temas">Temas</a>
+<a href="#atividades">Atividades</a>
+<a href="#reflexao">Minha reflexão</a>
+</nav>
+
+<main>
+<section id="sobre">
+<div class="eyebrow">Conheça o projeto</div>
+<h2>O que é a Educação para a Vida?</h2>
+<div class="intro">
+<div>
+<p>A Semana da Educação para a Vida é uma oportunidade de conversar e aprender sobre assuntos que fazem parte do nosso cotidiano e que contribuem para a formação de cidadãos conscientes, responsáveis e participativos.</p>
+<p>Em diálogo com a Base Nacional Comum Curricular (BNCC), a proposta valoriza a formação integral: além dos conhecimentos escolares, considera o desenvolvimento pessoal, social e emocional e a preparação para os desafios da vida.</p>
+</div>
+<div class="art">
+<span>✿</span>
+<strong>Conhecer • Conviver • Transformar</strong>
+<small>Aprendizagens para a vida toda</small>
+</div>
+</div>
+</section>
+
+<section id="importancia">
+<div class="eyebrow">Por que conversar sobre isso?</div>
+<h2>Aprendizagens que vão além da sala de aula</h2>
+<div class="grid">
+<article class="card">
+<div class="icon">🌱</div>
+<h3>Desenvolvimento pessoal</h3>
+<p>Reconhecer sentimentos, conhecer nossas capacidades e assumir responsabilidades pelas próprias escolhas.</p>
+</article>
+<article class="card">
+<div class="icon">🤝</div>
+<h3>Convivência respeitosa</h3>
+<p>Praticar o diálogo, a empatia, a cooperação e o respeito às diferenças.</p>
+</article>
+<article class="card">
+<div class="icon">🌎</div>
+<h3>Participação social</h3>
+<p>Compreender direitos e deveres e participar de ações que contribuam para a comunidade.</p>
+</article>
+</div>
+</section>
+
+<section id="temas">
+<div class="eyebrow">Assuntos para aprender e compartilhar</div>
+<h2>Temas relacionados à formação integral</h2>
+<p>Os temas podem ser trabalhados em rodas de conversa, palestras, oficinas, projetos e atividades colaborativas.</p>
+<div class="topics">
+<article class="topic">
+<div class="icon">💛</div>
+<div><h3>Saúde e bem-estar</h3><p>Autocuidado, hábitos saudáveis, equilíbrio e valorização da vida.</p></div>
+</article>
+<article class="topic">
+<div class="icon">🧠</div>
+<div><h3>Autoconhecimento</h3><p>Identidade, emoções, autoestima, escolhas e projeto de vida.</p></div>
+</article>
+<article class="topic">
+<div class="icon">🫶</div>
+<div><h3>Respeito e diversidade</h3><p>Empatia, inclusão, direitos humanos e combate ao preconceito.</p></div>
+</article>
+<article class="topic">
+<div class="icon">💰</div>
+<div><h3>Educação financeira</h3><p>Planejamento, consumo consciente, economia e responsabilidade.</p></div>
+</article>
+<article class="topic">
+<div class="icon">🌿</div>
+<div><h3>Meio ambiente</h3><p>Sustentabilidade, preservação dos recursos naturais e atitudes responsáveis.</p></div>
+</article>
+<article class="topic">
+<div class="icon">💻</div>
+<div><h3>Cidadania digital</h3><p>Uso consciente da tecnologia, segurança, respeito e combate à desinformação.</p></div>
+</article>
+<article class="topic">
+<div class="icon">🗣️</div>
+<div><h3>Comunicação e convivência</h3><p>Escuta, diálogo, resolução de conflitos e trabalho em equipe.</p></div>
+</article>
+<article class="topic">
+<div class="icon">🎯</div>
+<div><h3>Trabalho e projeto de vida</h3><p>Interesses, talentos, objetivos, profissões e planejamento do futuro.</p></div>
+</article>
+</div>
+</section>
+
+<section id="atividades">
+<div class="eyebrow">Participe</div>
+<h2>Ideias de atividades para a semana</h2>
+<p>Marque as atividades conforme forem realizadas. Seu progresso fica salvo neste navegador.</p>
+<div class="panel">
+<strong>Meu progresso</strong>
+<div class="bar"><div class="progress" id="progress"></div></div>
+<div class="small" id="progressText">0 de 6 atividades concluídas</div>
+</div>
+<div class="activity-list" id="activityList">
+<div class="activity">
+<input type="checkbox" id="a1">
+<label for="a1"><strong>Roda de conversa</strong><small>Compartilhar ideias sobre respeito, empatia e convivência.</small></label>
+</div>
+<div class="activity">
+<input type="checkbox" id="a2">
+<label for="a2"><strong>Oficina de educação financeira</strong><small>Montar um planejamento simples de gastos e objetivos.</small></label>
+</div>
+<div class="activity">
+<input type="checkbox" id="a3">
+<label for="a3"><strong>Campanha de sustentabilidade</strong><small>Propor pequenas atitudes para cuidar do ambiente escolar.</small></label>
+</div>
+<div class="activity">
+<input type="checkbox" id="a4">
+<label for="a4"><strong>Debate sobre cidadania digital</strong><small>Conversar sobre segurança, respeito e responsabilidade na internet.</small></label>
+</div>
+<div class="activity">
+<input type="checkbox" id="a5">
+<label for="a5"><strong>Painel de projeto de vida</strong><small>Registrar sonhos, metas e passos para alcançar objetivos.</small></label>
+</div>
+<div class="activity">
+<input type="checkbox" id="a6">
+<label for="a6"><strong>Atitude de gentileza</strong><small>Realizar uma ação de acolhimento ou colaboração na escola.</small></label>
+</div>
+</div>
+</section>
+
+<section id="reflexao">
+<div class="eyebrow">Aprender também é refletir</div>
+<h2>Minha reflexão sobre a semana</h2>
+<div class="reflection">
+<p>O que aprendi? Qual assunto chamou mais minha atenção? Que atitude posso levar para meu dia a dia?</p>
+<textarea id="reflectionText" placeholder="Escreva aqui suas ideias e aprendizados..."></textarea>
+<button onclick="saveReflection()">Salvar reflexão</button>
+<button class="secondary" onclick="clearReflection()">Limpar texto</button>
+<span id="saveMessage" class="small"></span>
+</div>
+</section>
+
+<div class="quote">
+“A educação não transforma o mundo. Educação muda as pessoas. Pessoas transformam o mundo.”
+<span>Paulo Freire</span>
+</div>
+</main>
+
+<footer>
+<p>Semana da Educação para a Vida • Aprendizagens para o presente e para o futuro</p>
+<p>Conteúdo educativo inspirado nos princípios de formação integral da BNCC.</p>
+</footer>
+
+<script>
+const checks = [...document.querySelectorAll('#activityList input[type="checkbox"]')];
+
+function updateProgress() {
+  const done = checks.filter(item => item.checked).length;
+
+  document.getElementById('progress').style.width =
+    (done / checks.length * 100) + '%';
+
+  document.getElementById('progressText').textContent =
+    `${done} de ${checks.length} atividades concluídas`;
+
+  checks.forEach(item => {
+    item.closest('.activity').classList.toggle('done', item.checked);
+  });
+
+  localStorage.setItem(
+    'educacaoVidaAtividades',
+    JSON.stringify(checks.map(item => item.checked))
+  );
+}
+
+const saved = JSON.parse(
+  localStorage.getItem('educacaoVidaAtividades') || '[]'
+);
+
+checks.forEach((item, index) => {
+  item.checked = Boolean(saved[index]);
+  item.addEventListener('change', updateProgress);
+});
+
+updateProgress();
+
+const reflectionText = document.getElementById('reflectionText');
+reflectionText.value =
+  localStorage.getItem('educacaoVidaReflexao') || '';
+
+function saveReflection() {
+  localStorage.setItem(
+    'educacaoVidaReflexao',
+    reflectionText.value
+  );
+
+  document.getElementById('saveMessage').textContent =
+    'Reflexão salva!';
+}
+
+function clearReflection() {
+  reflectionText.value = '';
+  localStorage.removeItem('educacaoVidaReflexao');
+
+  document.getElementById('saveMessage').textContent =
+    'Texto apagado.';
+}
+</script>
+</body>
+</html>
